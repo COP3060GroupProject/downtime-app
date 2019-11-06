@@ -108,7 +108,7 @@ This app will be geared towards students. It will allow users to sync their phon
    | timeStart     | Number   | start time for task |
    | timeEnd       | Number   | end of task time |
    | priority      | number   | task rank from 1-5 |
-   | taskname      | String   | name of task  |
+   | taskName      | String   | name of task  |
    
    #### New Task
    | Property      | Type     | Description |
@@ -120,7 +120,7 @@ This app will be geared towards students. It will allow users to sync their phon
    | timeStart     | Number   | start time for task |
    | timeEnd       | Number   | end of task time |
    | priority      | number   | task rank from 1-5 |
-   | taskname      | String   | name of task  |
+   | taskName      | String   | name of task  |
    
    #### Timer
 
@@ -131,7 +131,7 @@ This app will be geared towards students. It will allow users to sync their phon
    | seconds       | number   | seconds when the user starts the timer|
    | taskId        | String   | unique id for the user post |
   
-   #### Class Schedule
+   #### User Profile
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
