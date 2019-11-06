@@ -58,6 +58,35 @@ This app will be geared towards students. It will allow users to sync their phon
    * Lets users sync their calendar, and edit their app notification settings.
 
 ### 3. Navigation
+  
+**Tab Navigation** (Tab to Screen)
+
+* Calendar
+* Add Event/Add Task
+* Slack Time
+* Task Timer
+* Profile
+* Settings
+
+**Flow Navigation** (Screen to Screen)
+* Forced Login -> Account creation if no login is available
+* Calendar -> Shows a daily view
+* Add Event/Add Task -> Buttons to add event/task to calendar
+* Slack Time -> Shows chart and description of free time
+* Task Timer -> Text field, timer
+* Profile -> Text field to be modified
+* Settings -> Toggle settings
+
+## Wireframes
+<img src="https://i.imgur.com/EEVKjBQ.jpg" width=800><br>
+
+### [BONUS] Digital Wireframes & Mockups
+
+
+### [BONUS] Interactive Prototype
+
+## Schema 
+### Models
 #### User
 
    | Property      | Type     | Description |
@@ -113,31 +142,3 @@ This app will be geared towards students. It will allow users to sync their phon
    | ClassTimeStart | Number   | time when the class starts|
    | ClassTimeEnd   | Number   | time when the class ends |
    | ClassWeight   | Number | measure of the class weight|
-  
-   
-**Tab Navigation** (Tab to Screen)
-
-* Calendar
-* Add Event/Add Task
-* Slack Time
-* Task Timer
-* Profile
-* Settings
-
-**Flow Navigation** (Screen to Screen)
-* Forced Login -> Account creation if no login is available
-* Calendar -> Shows a daily view
-* Add Event/Add Task -> Buttons to add event/task to calendar
-* Slack Time -> Shows chart and description of free time
-* Task Timer -> Text field, timer
-* Profile -> Text field to be modified
-* Settings -> Toggle settings
-
-## Wireframes
-<img src="https://i.imgur.com/EEVKjBQ.jpg" width=800><br>
-
-### [BONUS] Digital Wireframes & Mockups
-
-
-### [BONUS] Interactive Prototype
-
