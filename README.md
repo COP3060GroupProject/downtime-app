@@ -58,7 +58,63 @@ This app will be geared towards students. It will allow users to sync their phon
    * Lets users sync their calendar, and edit their app notification settings.
 
 ### 3. Navigation
+#### User
 
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | userId        | String   | unique id for the user login (default field) |
+   | email         | String   | user verification|
+   | password      | String   | user inputs password at login |
+   | createDate    | Number   | date when account was created |
+   | Updatedate    | Number   | date when account was last updated|
+   
+   #### Calendar
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | day           | DateTime | input day of task |
+   | month         | DateTime | input month of task |
+   | year          | DateTime | input year of task |
+   | taskId        | number   | unique id for the task |
+   | timeStart     | Number   | start time for task |
+   | timeEnd       | Number   | end of task time |
+   | priority      | number   | task rank from 1-5 |
+   | taskname      | String   | name of task  |
+   
+   #### New Task
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | day           | DateTime | input day of task |
+   | month         | DateTime | input month of task |
+   | year          | DateTime | input year of task |
+   | taskId        | number   | unique id for the task |
+   | timeStart     | Number   | start time for task |
+   | timeEnd       | Number   | end of task time |
+   | priority      | number   | task rank from 1-5 |
+   | taskname      | String   | name of task  |
+   
+   #### Timer
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | hours         | number   | hour when the user starts the timer |
+   | minutes       | number   | minute when the user starts the timer |
+   | seconds       | number   | seconds when the user starts the timer|
+   | taskId        | String   | unique id for the user post |
+  
+   #### Class Schedule
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | userID        | String   | unique id for the user|
+   | school        | String| Users name of school |
+   | className     | String  | users class name|
+   | meetingDay    | String | day when the class takes place|
+   | ClassTimeStart | Number   | time when the class starts|
+   | ClassTimeEnd   | Number   | time when the class ends |
+   | ClassWeight   | Number | measure of the class weight|
+  
+   
 **Tab Navigation** (Tab to Screen)
 
 * Calendar
