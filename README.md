@@ -142,3 +142,30 @@ This app will be geared towards students. It will allow users to sync their phon
    | ClassTimeStart | Number   | time when the class starts|
    | ClassTimeEnd   | Number   | time when the class ends |
    | ClassWeight   | Number | measure of the class weight|
+   
+   ### Networking
+#### List of network requests by screen
+   - User Login Screen
+      - (Read/POST) Read user's password 
+      - (Create/POST) Create a new user
+      
+   -New Task Sceen
+      - (Create/POST) Create a new task
+    
+   - User Profile Screen 
+      - (Update/Put) Update user profile information
+      - (Read/Get) Query logged in user
+      
+   - Daily Task (Calendar) Screen
+      - (Read/GET) View all tasks
+      - (Update/PUT) Manage the list of task
+      - (Create/Post) Create a new task
+      - (Delete) Delete a task from the calendar
+      
+   - Slack Time Screen
+      - (Read/Get) View data of estimated slack/leisure time
+      
+   - Settings Screen
+      - (Update/Put) change/modify application settings
+      - (Read/Get) View current application settings
+   
