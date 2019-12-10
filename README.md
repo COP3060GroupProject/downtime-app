@@ -84,7 +84,7 @@ This app will be geared towards students. It will allow users to sync their phon
 ### [BONUS] Digital Wireframes & Mockups
 |Sign-up|Log In|Main|Create|Leisure Time|
 |---|---|---|---|---|
-<img src="https://github.com/COP3060GroupProject/downtime-app/blob/master/signup.PNG" width=200><br> |<img scr="https://github.com/COP3060GroupProject/downtime-app/blob/master/login2.PNG" width=200><br>|<img src="https://github.com/COP3060GroupProject/downtime-app/blob/master/main2.PNG" width=200><br>  |<img src="https://github.com/COP3060GroupProject/downtime-app/blob/master/create.PNG" width=200><br> | <img src="https://github.com/COP3060GroupProject/downtime-app/blob/master/leisure2.PNG" width=200><br>|
+<img src="https://github.com/COP3060GroupProject/downtime-app/blob/master/signup.PNG" width=200><br> |<img scr="https://github.com/COP3060GroupProject/downtime-app/blob/master/login-in.PNG" width=200><br>|<img src="https://github.com/COP3060GroupProject/downtime-app/blob/master/main2.PNG" width=200><br>  |<img src="https://github.com/COP3060GroupProject/downtime-app/blob/master/create.PNG" width=200><br> | <img src="https://github.com/COP3060GroupProject/downtime-app/blob/master/leisure2.PNG" width=200><br>|
 
 ### [BONUS] Interactive Prototype
 
