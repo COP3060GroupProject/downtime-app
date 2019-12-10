@@ -4,32 +4,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#020000"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/usernameEditText"
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="48dp"
+        android:background="#FFFFFF"
+        android:clickable="true"
+        android:focusable="true"
+        android:selectedWeekBackgroundColor="#5C67C0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addEvent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="164dp"
-        android:ems="10"
-        android:hint="@string/username"
-        android:inputType="textWebEmailAddress"
+        android:clickable="true"
+        android:focusable="true"
+        app:backgroundTint="#0288D1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.986"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
-    <EditText
-        android:id="@+id/passwordEditText"
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#0288D1"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#5C67C0"
+        android:textStyle="normal|bold"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CalEventView"
+        android:layout_width="match_parent"
+        android:layout_height="384dp"
+        android:background="#FFFFFF"
+        android:foregroundTint="@color/design_default_color_primary"
+        android:scrollbars="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/leisure"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:ems="10"
-        android:hint="@string/password"
-        android:inputType="textPassword"
+        android:backgroundTint="#0288D1"
+        android:clickable="true"
+        app:backgroundTint="#0288D1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameEditText"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@android:drawable/ic_lock_idle_alarm"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="#0288D1"
+        android:text="@string/sign_out"
+        android:textColor="#F2EEF3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dateView"
+        app:layout_constraintVertical_bias="0.937" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

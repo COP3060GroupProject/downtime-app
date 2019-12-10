@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "595099501340",
+    "firebase_url": "https://cop3060-downtime.firebaseio.com",
+    "project_id": "cop3060-downtime",
+    "storage_bucket": "cop3060-downtime.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595099501340:android:d434622941f59fcf3a30d9",
+        "android_client_info": {
+          "package_name": "com.example.downtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595099501340-s1756taoec5ef7g8k03d5rcfvnsaab81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.downtime",
+            "certificate_hash": "0024eab733c28e13c18397209c25fc2fdb71408f"
+          }
+        },
+        {
+          "client_id": "595099501340-unjamlnfii840deejtvupomdu9akp0dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy8fAo7dBm_8mOefWErF4V8bgjytFEQUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595099501340-unjamlnfii840deejtvupomdu9akp0dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
